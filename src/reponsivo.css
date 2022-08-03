@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .secao-1 .row .col-md-6 .painel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .secao-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numeros .clientes {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numeros .clientes h1 {
+    font-size: 2rem;
+  }
+
+  .secao-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .secao-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .secao-3 .platforma .col-md-6 {
+    text-align: center !important;
+  }
+  .secao-3 .desktop i {
+    font-size: 8vmin;
+  }
+  .secao-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .secao-4 .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .secao-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+}
